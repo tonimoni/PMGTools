@@ -1,0 +1,15 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <ribbon>
+    <tabs>
+      <tab id="customTab" label="Chart Tools">
+        <group id="customGroup" label="Data Tools">
+          <button id="customButton"
+                  label="Convert Chart Data to Values"
+                  size="large"
+                  onAction="OnConvertChartData"
+                  imageMso="ChartDataEdit" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
